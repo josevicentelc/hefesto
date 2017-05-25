@@ -72,7 +72,7 @@ public class MapJFrame extends JFrame {
                 canvas.paint(map.getImagen(i + y_offset, j + x_offset), 256 * j, 256 * i);
             }
         }
-        paintSpeed(canvas);
+        //paintSpeed(canvas);
         canvas.repaint();
 
         List<PuntoAltitud> qem = map.getQuemado();

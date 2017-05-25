@@ -255,11 +255,11 @@ public class Mapa extends Thread{
         List<PuntoAltitud> list = new ArrayList<>();
         PuntoAltitud punto = mapa[2][5].getPunto(5, 5);
         punto.estatus = estado.ardiendo;
-        list.add(punto);
+        //list.add(punto);
 
         punto = mapa[2][5].getPunto(6, 5);
         punto.estatus = estado.ardiendo;
-        list.add(punto);
+        //list.add(punto);
         
         return list;
     }

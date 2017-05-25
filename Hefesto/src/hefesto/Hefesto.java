@@ -24,9 +24,9 @@ public class Hefesto {
 
     public static void MyMapsTest(){
         try{
-            //Mapa m = new Mapa(39.792520, -0.538822, 39.751799, -0.451287, 17);
+            Mapa m = new Mapa(38.367527, -0.474891, 38.350648, -0.451693, 17);
             //m.refreshFromGoogle();
-            //m.saveToFile("mimapa.map");
+            m.saveToFile("mimapa.map");
 
             Mapa m2 = Mapa.loadFromFile("mimapa.map");
             //Mapa m2 = Mapa.loadFromFile("Hefesto/mapaMarines.map");
